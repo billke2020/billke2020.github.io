@@ -5,27 +5,65 @@
 <meta charset="utf-8">
 <title>Homer</title>
 <style>
-  span {
-    position: absolute;
-    background-color: black;
-    color: white;
-    text-align: center;
-    border: 1px solid pink;
-  }
-  area {
-    background-color: pink;
-  }
 </style>
 
 </head>
 
 <body>
-  <h1>hello world</h1>
+<iframe src="https://www.google.com/maps/d/embed?mid=1P3qh1TH5hWcMOsxoa1kJIzlnJhV1vgEu" width="700" height="525" style="float: right"></iframe>
+
 
 <img id="homer-map" src="https://user-images.githubusercontent.com/72178483/94844887-e55a5600-03ec-11eb-9068-6fb459173371.png" alt="map" width:"700px" height:"500px" usemap="#odyssey-map"></img>
-<!--http://stephanieerdman.weebly.com/uploads/3/8/0/5/38056149/_1413990441.png?250 https://katiereinig.weebly.com/uploads/6/6/9/4/6694742/8631123.jpg?639 -->
 <map name="odyssey-map">
-  <area id="p1" shape="rect" coords="600, 170, 700, 220" alt="circle" href="#texts" onmouseover="showTitle(); showDescription(); showStoryImg()"></area>
+  <area shape="circle" coords="610, 180, 15" alt="circle" onmouseover="showTitle('1 Troy');
+    showDescription('Troy was where the Greeks fought and conquered by using the Trojian Horse. Odysseus would sail home with 12 ships and 720 men, never knowing that it would be the most dangerous 10 years journey ever.');
+    showStoryImg(0)"></area>
+  <area shape="circle" coords="620, 127, 15" alt="circle" onmouseover="showTitle('2 Ismarus of the Cicones');
+    showDescription('Odysseus and his men sacked the the cities of Cicones, who were allies to Troy during the war. The Cicones came back the next morning and killed 6 men on each of Odysseus\'s ship.');
+    showStoryImg(1)"></area>
+  <area shape="circle" coords="118, 360, 15" alt="circle" onmouseover="showTitle('3 Lotus Eaters');
+    showDescription('After escaping Cicones Odysseus and his men were blown off course and reached the land of the Lotus Eaters by the 10th day. His men that ate the Lotus flowers lost the hope of going home.');
+    showStoryImg(2)"></area>
+  <area shape="circle" coords="208, 245, 15" alt="circle" onmouseover="showTitle('4 Cyclops');
+    showDescription('Odysseus traveled to the land of Cyclops where crops grew on their own without farming and where the Cyclops lived as lone individuals. Odysseus blinded Poseidon\'s son Polyphemus the Cyclop.');
+    showStoryImg(3)"></area>
+  <area shape="circle" coords="210, 189, 15" alt="circle" onmouseover="showTitle('5 Island of Aeolia');
+    showDescription('Aeolus, the god of the wind, liked Odysseus so he helped Odysseus to travel home. He put all of the unfavorable winds inside a bag and gave it to Odysseus.');
+    showStoryImg(4)"></area>
+  <area shape="circle" coords="183, 69, 15" alt="circle" onmouseover="showTitle('6 Laestrygonians');
+    showDescription('The fleet landed at the Laestrygonian city of Telepylus. The human-eating giants ate some of Odysseus\'s men and almost sank all his ships. Only Odysseus\'s ship survived.');
+    showStoryImg(5)"></area>
+  <area shape="circle" coords="107, 55, 15" alt="circle" onmouseover="showTitle('7 Circe');
+    showDescription('Odysseus\'s men came to an island and were greeted by goddess Circe\'s herd of animals. His men drank Circe\'s wine and turned into pigs. Odysseus came to rescue them, after getting a magical herb from Hermes, the messenger god. He rescued his crew and Circe hosted them for 1 year.');
+    showStoryImg(6)"></area>
+  <area shape="circle" coords="77, 17, 15" alt="circle" onmouseover="showTitle('8 Teirasias and the Land of the Dead');
+    showDescription('Circe adviced Odysseus to go to Hades and ask prophet Teirasias about his fate. Odysseus learned of Poseidon\'s outrage and the circumstances in his palace. He was also warned to not touch the sun god\'s cattle.');
+    showStoryImg(7)"></area>
+  <area shape="circle" coords="83, 97, 15" alt="circle" onmouseover="showTitle('9 Circe');
+    showDescription('They returned to Circe\'s island briefly to bury one of the crew member that had died there.');
+    showStoryImg(8)"></area>
+  <area shape="circle" coords="274, 179, 15" alt="circle" onmouseover="showTitle('10 Sirens');
+    showDescription('The Sirens were nymphs that seduced crew members using their singings and ate their preys. Odysseus got through by ordering his crew to put wax in their ears so they wouldn\'t hear the Sirens\' songs.');
+    showStoryImg(9)"></area>
+  <area shape="circle" coords="252, 212, 15" alt="circle" onmouseover="showTitle('11 Charybdis');
+    showDescription('Odysseus and his ship needed to pass between 2 giant rocks, which on one side was Charybdis, a giant whirlpool that would suck in Odysseus\'s ship. On the other side was Scylla.');
+    showStoryImg(10)"></area>
+  <area shape="circle" coords="302, 247, 15" alt="circle" onmouseover="showTitle('12 Scylla');
+    showDescription('Odysseus was warned by Circe of the sea monster Scylla that Scylla would have to take 6 of Odysseus\'s men to let them pass. Odysseus didn\'t tell his crew as to not create fear and 6 of his men were taken.');
+    showStoryImg(11)"></area>
+  <area shape="circle" coords="297, 293, 15" alt="circle" onmouseover="showTitle('13 Thrynacia');
+    showDescription('Odysseus arrived at the Island of Thrynakia. Because of a storm they were stuck there for a month and they ran out of food. Odysseus\'s crew ate the sun god\'s cattles when Odysseus wasn\'t present and enraged the sun god. Zeus revenged for the sun god by breaking the ship with a thunderbolt.');
+    showStoryImg(12)"></area>
+  <area shape="circle" coords="157, 298, 15" alt="circle" onmouseover="showTitle('14 Calypso');
+    showDescription('Odysseus drifted on the sea and was captured by Calypso a lustful goddess who wanted Odysseus to be her husband. He was stuck there for 7 years before Athena helped and Zeus sent Hermes to order Calypso to free Odysseus.');
+    showStoryImg(13)"></area>
+  <area shape="circle" coords="401, 187, 15" alt="circle" onmouseover="showTitle('15 Phaeacia');
+    showDescription('After Odysseus built a raft and left Calypso, he washed up on the island of Phaeacia. He was welcomed and sent off on a swift boat.');
+    showStoryImg(14)"></area>
+  <area shape="circle" coords="441, 228, 15" alt="circle" onmouseover="showTitle('16 Ithaca');
+    showDescription('Odysseus finally went back to Ithaca. Using a plan devised by Athena, Telemachus and Odysseus under disguise of a beggar killed all the suitors that lived in his palace when he was gone.');
+    showStoryImg(15)"></area>
+
 </map>
 
 
@@ -35,20 +73,63 @@
   <img id="storyImg"></img>
 </div>
 
+<div>
+  <p>Sources</p>
+  <p>map picture: https://katiereinig.weebly.com/mapstory-summaries.html <br>
+    Troy: https://www.greekmyths-greekmythology.com/trojan-war-myth/ <br>
+    Ismarus: https://www.timetoast.com/timelines/the-odyssey-timeline-5a1bf71d-0888-4358-95a8-5b26c2fef4b5 <br>
+    Lotus Eaters: https://en.wikipedia.org/wiki/Lotus-eaters#/media/File:Lotus-eaters.png<br>
+    Cyclops: https://www.greekmyths-greekmythology.com/odysseus-and-cyclops-myth/<br>
+    Aeolus: https://en.wikipedia.org/wiki/Aeolus_(Odyssey)#/media/File:Isaac_Moillon_-_%C3%89ole_donnant_les_vents_%C3%A0_Ulysse.jpg<br>
+    Laestrygonians: https://www.greeklegendsandmyths.com/laestrygonians.html<br>
+    Circe: <br>
+    Teirasias and the Land of the Dead: <br>
+    Circe: <br>
+    Sirens: <br>
+    Charybdis: <br>
+    Scylla: <br>
+    Thrynacia: <br>
+    Calypso: <br>
+    Phaeacia: <br>
+    Ithaca: <br>
+  </p>
+</div>
+
 <script type = "text/javascript">
   var title = document.getElementById("title");
   var description = document.getElementById("description");
   var storyImg = document.getElementById("storyImg");
-  var showTitle = function() {
-    title.textContent = "Troy";
-  };
-  var showDescription = function() {
-    description.textContent = "This is where it all started";
-  };
-  var showStoryImg = function() {
-    storyImg.src = "https://user-images.githubusercontent.com/72178483/94844887-e55a5600-03ec-11eb-9068-6fb459173371.png";
-  };
 
+  var imgLibrary = [ //location is 1-16, image is 1-15
+    ["https://user-images.githubusercontent.com/72178483/94980859-89322780-04fb-11eb-9452-4b1b4a5a8c3e.png", "Trojian horse"],
+    ["https://user-images.githubusercontent.com/72178483/95026629-b6e4b100-0660-11eb-9a0d-3fd33434d013.png", "Ismarus"],
+    ["https://user-images.githubusercontent.com/72178483/95026860-4179e000-0662-11eb-9ff9-7f6bef69fa84.png", "Lotus Eaters"],
+    ["https://user-images.githubusercontent.com/72178483/95026887-653d2600-0662-11eb-93c3-d51e5e27f9b7.png", "Cyclops"],
+    ["https://user-images.githubusercontent.com/72178483/95026914-ac2b1b80-0662-11eb-885f-f695a985a690.png", "Island of Aeolia"],
+    ["https://user-images.githubusercontent.com/72178483/95026949-e5638b80-0662-11eb-8fb5-bc82dac503ac.png", "Laestrygonians"],
+    ["", "Circe"],
+    ["", "Teirasias and the Land of the Dead"],
+    ["", "Circe"],
+    ["", "Sirens"],
+    ["", "Charybdis"],
+    ["", "Scylla"],
+    ["", "Thrynacia"],
+    ["", "Calypso"],
+    ["", "Phaeacia"],
+    ["", "Ithaca"]
+  ];
+
+  var showTitle = function(titleText) {
+    title.textContent = titleText;
+  };
+  var showDescription = function(descriptionText) {
+    description.textContent = descriptionText;
+  };
+  var showStoryImg = function(whichPic) {
+    storyImg.src = imgLibrary[whichPic][0];
+    storyImg.alt = imgLibrary[whichPic][1];
+    console.log(storyImg.alt);
+  };
 
 
 
